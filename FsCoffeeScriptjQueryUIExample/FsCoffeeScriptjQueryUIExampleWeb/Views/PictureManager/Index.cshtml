@@ -1,0 +1,62 @@
+﻿@{
+    ViewBag.Title = "Picture Manager";
+}
+
+<h2>PictureManager</h2>
+<div class="demo ui-widget ui-helper-clearfix">
+    <ul id="gallery" class="gallery ui-helper-reset ui-helper-clearfix">
+        <li class="ui-widget-content ui-corner-tr">
+            <h5 class="ui-widget-header">
+                High&nbsp;Tatras</h5>
+            <img src="../../Content/images/high_tatras_min.jpg" alt="The peaks of High Tatras"
+                width="96" height="72" />
+            <a href="../../Content/images/high_tatras.jpg" title="View larger image" class="ui-icon ui-icon-zoomin">
+                View larger</a> <a href="link/to/trash/script/when/we/have/js/off" title="Delete this image"
+                    class="ui-icon ui-icon-trash">Delete image</a> </li>
+        <li class="ui-widget-content ui-corner-tr">
+            <h5 class="ui-widget-header">
+                High&nbsp;Tatras&nbsp;2</h5>
+            <img src="../../Content/images/high_tatras2_min.jpg" alt="The chalet at the Green mountain lake"
+                width="96" height="72" />
+            <a href="../../Content/images/high_tatras2.jpg" title="View larger image" class="ui-icon ui-icon-zoomin">
+                View larger</a> <a href="link/to/trash/script/when/we/have/js/off" title="Delete this image"
+                    class="ui-icon ui-icon-trash">Delete image</a> </li>
+        <li class="ui-widget-content ui-corner-tr">
+            <h5 class="ui-widget-header">
+                High&nbsp;Tatras&nbsp;3</h5>
+            <img src="../../Content/images/high_tatras3_min.jpg" alt="Planning the ascent" width="96"
+                height="72" />
+            <a href="../../Content/images/high_tatras3.jpg" title="View larger image" class="ui-icon ui-icon-zoomin">
+                View larger</a> <a href="link/to/trash/script/when/we/have/js/off" title="Delete this image"
+                    class="ui-icon ui-icon-trash">Delete image</a> </li>
+        <li class="ui-widget-content ui-corner-tr">
+            <h5 class="ui-widget-header">
+                High&nbsp;Tatras&nbsp;4</h5>
+            <img src="../../Content/images/high_tatras4_min.jpg" alt="On top of Kozi kopka" width="96"
+                height="72" />
+            <a href="../../Content/images/high_tatras4.jpg" title="View larger image" class="ui-icon ui-icon-zoomin">
+                View larger</a> <a href="link/to/trash/script/when/we/have/js/off" title="Delete this image"
+                    class="ui-icon ui-icon-trash">Delete image</a> </li>
+    </ul>
+    <div id="trash" class="ui-widget-content ui-state-default">
+        <h4 class="ui-widget-header">
+            <span class="ui-icon ui-icon-trash">Trash</span> Trash</h4>
+    </div>
+</div>
+<div class="demo-description">
+    <p>
+        You can delete an image either by dragging it to the Trash or by clicking the trash
+        icon.</p>
+    <p>
+        You can "recycle" an image by dragging it back to the gallery or by clicking the
+        recycle icon.</p>
+    <p>
+        You can view larger image by clicking the zoom icon. jQuery UI dialog widget is
+        used for the modal window.</p>
+</div>
+<script src="@Url.Content("~/Scripts/PictureManager/PictureManager.js")" type="text/javascript"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        window.pictureManager.init();
+    });
+</script>

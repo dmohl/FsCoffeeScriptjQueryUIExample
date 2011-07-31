@@ -1,0 +1,72 @@
+﻿@{
+    ViewBag.Title = "User Manager";
+}
+
+<h2>User Manager</h2>
+<div class="demo">
+    <div id="dialog-form" title="Create new user">
+        <p class="validateTips">
+            All form fields are required.</p>
+        <form>
+        <fieldset>
+            <label for="name">
+                Name</label>
+            <input type="text" name="name" id="name" class="text ui-widget-content ui-corner-all" />
+            <label for="email">
+                Email</label>
+            <input type="text" name="email" id="email" value="" class="text ui-widget-content ui-corner-all" />
+            <label for="password">
+                Password</label>
+            <input type="password" name="password" id="password" value="" class="text ui-widget-content ui-corner-all" />
+        </fieldset>
+        </form>
+    </div>
+    <div id="users-contain" class="ui-widget">
+        <h1>
+            Existing Users:</h1>
+        <table id="users" class="ui-widget ui-widget-content">
+            <thead>
+                <tr class="ui-widget-header ">
+                    <th>
+                        Name
+                    </th>
+                    <th>
+                        Email
+                    </th>
+                    <th>
+                        Password
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        John Doe
+                    </td>
+                    <td>
+                        john.doe@example.com
+                    </td>
+                    <td>
+                        johndoe1
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <button id="create-user">
+        Create new user</button>
+</div>
+<!-- End demo -->
+<div class="demo-description">
+    <p>
+        Use a modal dialog to require that the user enter data during a multi-step process.
+        Embed form markup in the content area, set the <code>modal</code> option to true,
+        and specify primary and secondary user actions with the <code>buttons</code> option.</p>
+</div>
+<!-- End demo-description -->
+<script src="@Url.Content("~/Scripts/UserManager/UserManager.js")" type="text/javascript"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        window.userManager.init();
+    });
+</script>

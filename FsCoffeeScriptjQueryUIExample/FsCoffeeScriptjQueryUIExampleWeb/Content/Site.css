@@ -340,3 +340,10 @@ div#users-contain table td, div#users-contain table th { border: 1px solid #eee;
 .ui-sortable-placeholder { border: 1px dotted black; visibility: visible !important; height: 50px !important; }
 .ui-sortable-placeholder * { visibility: hidden; }
 /* Porlets Styles */
+
+/* Slider Styles */
+#demo-frame > div.demo { padding: 10px !important; }
+#eq span {
+	height:120px; float:left; margin:15px
+}
+/* Slider Styles */

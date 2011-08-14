@@ -14,6 +14,7 @@
     <AssemblyName>FsCoffeeScriptjQueryUIExampleWeb</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>false</UseIISExpress>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -121,6 +122,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Portlets.coffee</DependentUpon>
     </Content>
+    <Content Include="Scripts\Slider\Slider.js">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Slider.coffee</DependentUpon>
+    </Content>
     <Content Include="Scripts\UserManager\UserManager.js">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -176,12 +182,17 @@
       <Generator>CoffeeScriptGenerator</Generator>
       <LastGenOutput>Portlets.js</LastGenOutput>
     </None>
+    <None Include="Scripts\Slider\Slider.coffee">
+      <Generator>CoffeeScriptGenerator</Generator>
+      <LastGenOutput>Slider.js</LastGenOutput>
+    </None>
     <None Include="Scripts\UserManager\UserManager.coffee">
       <Generator>CoffeeScriptGenerator</Generator>
       <LastGenOutput>UserManager.js</LastGenOutput>
     </None>
     <Content Include="Views\Portlets\Index.cshtml" />
     <Content Include="Views\UserManager\Index.cshtml" />
+    <Content Include="Views\Slider\Index.cshtml" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />

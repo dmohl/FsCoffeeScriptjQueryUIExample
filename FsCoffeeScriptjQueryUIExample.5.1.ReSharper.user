@@ -1,0 +1,50 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="C3829D98-DBEE-4095-8935-9B9C4A7145FF/d:Views/d:Home/f:Index.cshtml" caret="0" fromTop="0" />
+      <File id="C3829D98-DBEE-4095-8935-9B9C4A7145FF/d:Views/d:PictureManager/f:Index.cshtml" caret="0" fromTop="0" />
+      <File id="C3829D98-DBEE-4095-8935-9B9C4A7145FF/d:Scripts/d:PictureManager/f:PictureManager.js" caret="0" fromTop="0" />
+      <File id="7B6EFECF-B196-4581-BC1A-78B23FCFD74F/f:PortletsController.fs" caret="0" fromTop="0" />
+      <File id="7B6EFECF-B196-4581-BC1A-78B23FCFD74F/f:SliderController.fs" caret="221" fromTop="9" />
+      <File id="C3829D98-DBEE-4095-8935-9B9C4A7145FF/d:Views/d:Portlets/f:Index.cshtml" caret="1659" fromTop="3" />
+      <File id="C3829D98-DBEE-4095-8935-9B9C4A7145FF/d:Views/d:Shared/f:_Layout.cshtml" caret="1256" fromTop="8" />
+      <File id="C3829D98-DBEE-4095-8935-9B9C4A7145FF/d:Scripts/d:PictureManager/f:PictureManager.coffee" caret="2567" fromTop="70" />
+      <File id="C3829D98-DBEE-4095-8935-9B9C4A7145FF/d:Content/f:Site.css" caret="7339" fromTop="16" />
+      <File id="C3829D98-DBEE-4095-8935-9B9C4A7145FF/d:Scripts/d:Portlets/f:Portlets.js" caret="0" fromTop="0" />
+      <File id="C3829D98-DBEE-4095-8935-9B9C4A7145FF/d:Views/d:UserManager/f:Index.cshtml" caret="0" fromTop="0" />
+      <File id="C3829D98-DBEE-4095-8935-9B9C4A7145FF/d:Views/f:_ViewStart.cshtml" caret="0" fromTop="0" />
+      <File id="C3829D98-DBEE-4095-8935-9B9C4A7145FF/d:Scripts/d:Slider/f:Slider.coffee" caret="468" fromTop="15" />
+      <File id="C3829D98-DBEE-4095-8935-9B9C4A7145FF/d:Scripts/d:UserManager/f:UserManager.coffee" caret="0" fromTop="0" />
+      <File id="C3829D98-DBEE-4095-8935-9B9C4A7145FF/d:Scripts/d:Slider/f:Slider.js" caret="535" fromTop="2" />
+      <File id="C3829D98-DBEE-4095-8935-9B9C4A7145FF/d:Views/d:Slider/f:Index.cshtml" caret="780" fromTop="8" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="7B6EFECF-B196-4581-BC1A-78B23FCFD74F/f:SliderController.fs" caret="101" fromTop="7" />
+      <File id="7B6EFECF-B196-4581-BC1A-78B23FCFD74F/f:SliderController.fs" caret="0" fromTop="0" />
+      <File id="C3829D98-DBEE-4095-8935-9B9C4A7145FF/d:Views/d:Slider/f:Index.cshtml" caret="780" fromTop="8" />
+      <File id="C3829D98-DBEE-4095-8935-9B9C4A7145FF/d:Views/d:Shared/f:_Layout.cshtml" caret="1206" fromTop="6" />
+      <File id="C3829D98-DBEE-4095-8935-9B9C4A7145FF/d:Content/f:Site.css" caret="7339" fromTop="16" />
+      <File id="C3829D98-DBEE-4095-8935-9B9C4A7145FF/d:Views/d:Slider/f:Index.cshtml" caret="59" fromTop="5" />
+      <File id="C3829D98-DBEE-4095-8935-9B9C4A7145FF/d:Scripts/d:Slider/f:Slider.coffee" caret="468" fromTop="15" />
+      <File id="C3829D98-DBEE-4095-8935-9B9C4A7145FF/d:Scripts/d:Slider/f:Slider.js" caret="535" fromTop="2" />
+      <File id="C3829D98-DBEE-4095-8935-9B9C4A7145FF/d:Views/d:Slider/f:Index.cshtml" caret="780" fromTop="8" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files (x86)\NUnit 2.5.9\bin\net-2.0\</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>

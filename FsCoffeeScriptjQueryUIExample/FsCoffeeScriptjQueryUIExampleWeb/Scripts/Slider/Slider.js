@@ -21,5 +21,5 @@
     }
     return Slider;
   })();
-  window.Slider = new Slider();
+  window.slider = new Slider();
 }).call(this);

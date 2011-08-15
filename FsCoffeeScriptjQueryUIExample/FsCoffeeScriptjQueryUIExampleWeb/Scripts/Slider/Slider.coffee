@@ -14,4 +14,4 @@ class Slider
                 animate: true
                 orientation: "vertical" 
 
-window.Slider = new Slider();
+window.slider = new Slider()
